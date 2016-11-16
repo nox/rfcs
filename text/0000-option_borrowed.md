@@ -15,11 +15,11 @@ from `Option<&T>` to `Option<&U>`.
 [motivation]: #motivation
 
 How to convert from `Option<String>` to `Option<&str>` is sometimes asked on
-Stack Overflow [1] [2]. This use case is also common in Servo, along other
+Stack Overflow [[1]] [[2]]. This use case is also common in Servo, along other
 cases that would also be covered by such a method.
 
-[1] http://stackoverflow.com/q/31233938
-[2] http://stackoverflow.com/q/34974732
+[1]: http://stackoverflow.com/q/31233938
+[2]: http://stackoverflow.com/q/34974732
 
 # Detailed design
 [design]: #detailed-design
