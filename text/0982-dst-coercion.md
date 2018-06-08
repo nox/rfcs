@@ -25,7 +25,7 @@ type. All implementations of this trait are implicit and compiler generated. It
 is an error to implement this trait. If `&T` can be coerced to `&U` then there
 will be an implementation of `Unsize<U>` for `T`. E.g, `[i32; 42]:
 Unsize<[i32]>`. Note that the existence of an `Unsize` impl does not signify a
-coercion can itself can take place, it represents an internal part of the
+coercion can itself take place, it represents an internal part of the
 coercion mechanism (it corresponds with `coerce_inner` from  RFC 401). The trait
 is defined as:
 
